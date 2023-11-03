@@ -1,13 +1,17 @@
+import React from "react";
+
 import { logo } from '../assets';
 
 const Hero = () => {
   return (
   <header className="w-full justify-center items-center flex-col">
-    <nav className='flex justify-between items-center flex-col'>
-    <img src="{logo}" alt="sumz-logo" className='w-28 object-contain' />
+    <nav className='flex justify-between items-center w-full mb-10 pt-3'>
+    <img src={logo} alt="sumz-logo" className='w-28 object-contain' />
 
     <button type = "button"
-    onClick={() => window.open("https://github.com/TidbitsJS/Summize", "_blank")}
+    onClick={() => window.open("https://github.com/PeterMoffTech/ai_summarizer", "_blank")
+  }
+  className="black_btn"
     >
       Github
       </button>
